@@ -1,0 +1,103 @@
+header .foto picture img {
+    width:250px;
+    object-fit: contain;
+}
+
+.titulo {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    max-height: 300px;
+}
+
+.titulo h1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.titulo h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 2.4rem;
+}
+
+.titulo p {
+    margin-top: 20px;
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+main {
+    display: flex;
+}
+
+.informacion {
+    order: 1;
+    margin-top: 0;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.experiencia {
+    order: 2;
+}
+
+.experiencia-tarjeta h3 {
+    font-size: 2.4rem;
+}
+
+.experiencia-tarjeta .experiencia-tarjeta--fecha {
+    font-size: 2.4rem;
+}
+
+.experiencia-tarjeta h4 {
+    font-size: 1.8rem;
+}
+
+.experiencia-tarjeta--lista {
+    font-size: 1.8rem;
+}
+
+.informacion {
+    padding-top: 50px;
+}
+
+.informacion h2 {
+    font-size: 1.8rem;
+}
+
+.informacion .informacion-telefono {
+    font-size: 1.4rem;
+}
+
+.informacion .informacion-telefono .informacion-telefono--imagen {
+    width: 24px;
+    height: 24px;
+}
+
+.informacion .informacion-email {
+    font-size: 1.4rem;
+}
+
+.informacion .informacion-email .informacion-email--imagen {
+    width: 24px;
+    height: 24px;
+}
+
+.informacion-categoria {
+    font-size: 1.6rem;
+}
+
+.informacion-texto {
+    font-weight: 500;
+}
+
+.informacion-subtexto {
+    font-weight: 300;
+}

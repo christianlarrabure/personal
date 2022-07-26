@@ -1,0 +1,44 @@
+header {
+    display: flex;
+}
+
+header .foto picture img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.titulo {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70vw;
+    max-height: 200px;
+}
+
+.experiencia-tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiencia-tarjeta h3 {
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.experiencia-tarjeta .experiencia-tarjeta--fecha {
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.experiencia-tarjeta-contenedor {
+    width: 40%;
+    margin: 20px;
+}
+
+.experiencia-tarjeta h4 {
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.experiencia-tarjeta--lista {
+    font-size: 1.2rem;
+}
